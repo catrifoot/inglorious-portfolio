@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Basic Tags</title>
+    </head>
+    <body> 
+
+<h1>Forms</h1>
+
+                <form method="POST">
+                    <fieldset>
+                        <legend>Sign In</legend>
+                    <label>Username</label>
+                    <div>
+                    <input name="username" placeholder= "e.g.SuperMarioFan">
+                    </div>
+
+                    <label>Password </label>
+                    <br>
+                    <input name="password" placeholder="e.g.12345" >
+                    <br>
+
+                    <input type="checkbox" name="preferences" value="pizza" id="pizza" checked/>
+                    
+                    <label for="Pizza"> Pizza </label>
+
+                    <input type="checkbox" name="preferences" value="pasta" id="pasta" />
+                    <label for="Pasta">Pasta</label>
+
+                    <input type="checkbox" name="preferences" value="mandolin" id="mandolin"/>
+                    <label for="Mandolin">Mandolin</label>
+
+                    <br>
+
+                    <input type="radio" name="gender" value="female" id="female" />
+                    <label for="female">Female</label>
+
+                    <input type="radio" name="gender" value="male" id="male" />
+                    <label for="male">Male</label>
+
+                    <input type="radio" name="gender" value="apache-helicopter" id="apache-helicopter" />
+                    <label for="apache-helicopter">Apache Helicopter</label>
+
+                    <input type="radio" name="gender" value="I-don't-care" id="I-don't-care" checked/>
+                    <label for="I-don't-care">I don't care</label>
+
+                    <section>
+                    <label for="languages"> Languages I <span>know</span></label>
+                    <select name="languages" id="languages">
+                    <option value="html">HyperText Markup Language</option>
+                    <option value="css">Cascading StyleSheets</option>
+                    <option value="js">JavaScript</option>
+                    </select>
+                    </section>
+
+                    <button type="submit">login</button>
+
+                </fieldset>
+                    
+                </form>
